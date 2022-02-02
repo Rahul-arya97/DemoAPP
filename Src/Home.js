@@ -17,14 +17,17 @@ const Home = ({}) => {
       }}>
       <Text>Home Page</Text>
       <Button
-        title="Go to profile"
-        onPress={() => navigation.navigate('Profile')}></Button>
+        title="Go to MarksCalculator"
+        onPress={() => navigation.navigate('MarksCalculation')}></Button>
       <Button
         title="Go to About"
         onPress={() => navigation.navigate('About')}></Button>
       <Button
-        title="Go to Contact"
-        onPress={() => navigation.navigate('Contact')}></Button>
+        title="Go to SalaryCalculation"
+        onPress={() => navigation.navigate('SalaryCalculation')}></Button>
+      <Button
+        title="Go to FlatListPage"
+        onPress={() => navigation.navigate('FlatList')}></Button>
     </View>
   );
 };
